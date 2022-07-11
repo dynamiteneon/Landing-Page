@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.topblock {
+    margin: 0px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10%;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+}
