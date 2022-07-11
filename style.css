@@ -3,6 +3,10 @@ body {
 }
 
 h1 {
+    font-size: 48px;
+}
+
+h3 {
     font-size: 24px;
 }
 
@@ -11,6 +15,7 @@ h1 {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
 }
 
 .header {
@@ -21,6 +26,45 @@ h1 {
     margin: 0px 10%;
 }
 
+.hero {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10%;
+    flex: 1;
+}
+
+.content{
+    display:inline-block;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: slategrey;
+    margin: 0;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+.button{
+    width:200px;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
 ul {
     margin: 0px;
     list-style: none;
@@ -28,8 +72,12 @@ ul {
 
 li {
     display: block;
-    float: left;
-    text-align: center;
     font-size: 14px;
     padding: 8px;
 }
+
+.rightlist{
+    float: right;
+}
+
+
