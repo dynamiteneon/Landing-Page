@@ -4,6 +4,8 @@ body {
 
 h1 {
     font-size: 48px;
+    padding: 0px;
+    margin: 0px;
 }
 
 h3 {
@@ -35,6 +37,10 @@ h3 {
     flex: 1;
 }
 
+.hero .content {
+    margin-right: 10%;
+}
+
 .image {
     display: flex;
     justify-content: center;
@@ -45,10 +51,12 @@ h3 {
 
 .left{
     width: 50%;
+    float: left;
 }
 
 .right{
     width: 50%;
+    float: right;
 }
 
 .button{
