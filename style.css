@@ -35,10 +35,6 @@ h3 {
     flex: 1;
 }
 
-.content{
-    display:inline-block;
-}
-
 .image {
     display: flex;
     justify-content: center;
