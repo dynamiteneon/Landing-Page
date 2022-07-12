@@ -129,4 +129,25 @@ li {
     font-size: 16px;
 }
 
+.quotecontainer {
+    display: flex;
+    background-color: #E5E7EB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+}
 
+.insidequote {
+    margin: 100px 20%;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    float: right;
+    padding: 16px;
+}
