@@ -151,3 +151,43 @@ li {
     float: right;
     padding: 16px;
 }
+
+.callcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+.callbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#3882F6;
+    border-radius: 8px;
+    padding: 36px;
+    margin: 100px 15%;
+    flex: 1;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer {
+    margin: 50px 0;
+}
